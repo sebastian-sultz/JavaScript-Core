@@ -1,0 +1,19 @@
+Event Properties:
+
+type: The type of event that occurred (e.g. "click", "mouseover", "keydown").
+target: The element that triggered the event.
+currentTarget: The element that is currently being processed by the event handler.
+eventPhase: The phase of the event (e.g. "capturing", "bubbling", "at target").
+bubbles: A boolean indicating whether the event bubbles up the DOM tree.
+cancelable: A boolean indicating whether the event can be canceled.
+defaultPrevented: A boolean indicating whether the default action was prevented.
+altKey: A boolean indicating whether the Alt key was pressed during the event.
+ctrlKey: A boolean indicating whether the Ctrl key was pressed during the event.
+shiftKey: A boolean indicating whether the Shift key was pressed during the event.
+metaKey: A boolean indicating whether the Meta key was pressed during the event.
+clientX: The x-coordinate of the event relative to the client area.
+clientY: The y-coordinate of the event relative to the client area.
+offsetX: The x-coordinate of the event relative to the offset parent.
+offsetY: The y-coordinate of the event relative to the offset parent.
+pageX: The x-coordinate of the event relative to the page.
+pageY: The y-coordinate of the event relative to the page.
